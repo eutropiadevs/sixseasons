@@ -1,0 +1,33 @@
+swagger: '2.0'
+info:
+  description: API Documentation of Six Seasons custom modules
+  title: Six Seasons Swagger Documentation
+  contact: {}
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 0.1.0
+host: localhost:1317
+schemes:
+  - http
+  - https
+tags:
+  - name: Asset
+    description: Everything about Assets
+    externalDocs:
+      description: Find out more
+      url: http://six.one
+  - name: Oracle
+    description: Everything about Oracle
+    externalDocs:
+      description: Find out more
+      url: http://six.one
+  - name: Vault
+    description: Everything about Vault
+    externalDocs:
+      description: Find out more
+      url: http://six.one
+paths:
+
+definitions:
+
